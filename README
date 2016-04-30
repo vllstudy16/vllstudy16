@@ -1,1 +1,19 @@
 # README
+
+
+The following files in the repository describe the schematics and build instructions for a wearable camera:
+
+1. CameraBuild-report.pdf : is a technical report on how to build a life logging camera. It details the components used, and the hardware & software tools required to build the camera, along with the description of it’s functionality and some basic debugging points.
+
+2. Camera-schematic.pdf : contains the wiring diagram for the camera.
+
+3. LifeLogging_Camera_serial_0.4.ino : is the arduino code file that makes the camera functional.
+
+4. LifeLoggingCameraV6-base.scad : is a 3D software file, required to build the bottom plastic enclosure of the camera.
+
+5. LifeLoggingCameraV6-base.stl : Created from ‘LifeLoggingCameraV6-base.scad’, file to be used with the 3D printer software for printing the bottom plastic enclosure.
+
+6. LifeLoggingCameraV6-top.scad : is a 3D software file, required to build the top plastic enclosure of the camera.
+
+7. LifeLoggingCameraV6-top.stl : Created from ‘LifeLoggingCameraV6-top.scad’, file to be used with the 3D printer software for printing the top plastic enclosure.
+
